@@ -187,4 +187,42 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box {
+    position: relative;
+    width: 384px;
+    height: 282px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    font-size: 18px;
+    font-family: "IRANYekanX-Medium";
+    text-align: center;
+}
+
+.box__img {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.close-btn {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2939;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
