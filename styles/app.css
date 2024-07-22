@@ -192,12 +192,17 @@ body {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    transition: all 150ms ease-in-out;
+}
+
+.overlay.overlay--open {
+    opacity: 1;
+    visibility: visible;
 }
 
 .box {
     position: relative;
     width: 384px;
-    height: 282px;
     background-color: #FFFFFF;
     border-radius: 16px;
     padding: 24px;
@@ -209,6 +214,10 @@ body {
 .box__img {
     display: block;
     margin: 0 auto 30px;
+}
+
+.box__text {
+    line-height: 27px;
 }
 
 .close-btn {
